@@ -10,12 +10,6 @@
 	apt-get update && \
   apt-get install -y dotnet-sdk-3.1
   
->> 		NOTE: Depending on the .NET Core version the customer application is using you can change the command to be like this for example:
->> 		apt-get update; \
->> 		apt-get install -y apt-transport-https && \
->> 		apt-get update && \
->> 		apt-get install -y dotnet-sdk-2.1
-
 ## 3. Check SDK was successfully installed
 > dotnet --list-sdks
 > 
@@ -31,6 +25,15 @@
 > dotnet new console
 
 ## 7. Edit Program.cs file and use the content of Program.cs in this repository
+
+## 8. Edit app.csproj file and use the content of app.csproj in this repository
+
+## 9. Now you need a model to hold the data you are pulling, In this case I am creating Employee.cs you can use the content of Employee.cs in this repository as an example
+
+## 10. Run the project
+
+## Result:
+![image](https://user-images.githubusercontent.com/36493244/136893250-f833702b-eaf0-426d-b162-97468d3d212c.png)
 
 
 

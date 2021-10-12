@@ -1,0 +1,1 @@
+# linux-netcore-to-cosmosdb-mongo
